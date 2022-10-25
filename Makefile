@@ -1,6 +1,6 @@
 
 lines:
-	g++ lines.cpp
+	g++ -o lines lines.cpp
 
 run:
-	./a.out
+	./lines

@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Run make
       run: make
 
@@ -22,4 +22,4 @@ jobs:
       with:
         name: colorlines
         path: |
-          a.out
+          lines
